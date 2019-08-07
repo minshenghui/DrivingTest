@@ -1,0 +1,46 @@
+<cu-custom bgColor="bg-white-blue">
+  <view slot="content">关于</view>
+</cu-custom>
+<view class="about-user">
+
+  <view class="user-top">
+
+    <!-- 无需用户授权 -->
+    <open-data class="user-avatar" type="userAvatarUrl"></open-data>
+    <open-data class="user-name" type="userNickName"></open-data>
+  </view>
+
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+
+    <view class="cu-item arrow user-item" bindtap="toQuestion">
+      <text class="cuIcon-questionfill text-grey"></text>
+      <text class="text-black item-text">使用须知</text>
+    </view>
+
+    <view class="cu-item arrow user-item" bindtap="toSuggest">
+      <text class="cuIcon-infofill text-grey"></text>
+      <text class="text-black item-text">建议反馈</text>
+    </view>
+
+    <view class="cu-item arrow user-item" bindtap="toCopyRight">
+      <text class="cuIcon-icloading text-grey"></text>
+      <text class="text-black item-text">「我是玖柒后」</text>
+    </view>
+
+    <view class="cu-item arrow user-item" bindtap="toVersion">
+      <text class="cuIcon-safe text-grey"></text>
+      <text class="text-black item-text">版本</text>
+      <text class="text-black ">v 1.1.3</text>
+    </view>
+
+
+  </view>
+  <button class="bg-green cu-btn relation" open-type="contact">在线联系</button>
+
+  <view class="bottom-line">
+    <view class="bl-left"></view>
+    <view class="bl-error">「我是玖柒后」出品</view>
+    <view class="bl-right"></view>
+  </view>
+
+</view>

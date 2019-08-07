@@ -1,0 +1,111 @@
+page {
+  background: #eef1f5 !important;
+}
+
+.about-user {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-top {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #eef1f5 0%, #e6e9f0 100%);
+}
+
+.user-btn {
+  margin: 200rpx 30% 200rpx 30%;
+}
+
+.user-avatar {
+  width: 218rpx;
+  height: 218rpx;
+  margin: 200rpx 0 50rpx 50%;
+  position: relative;
+  left: -109rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-name {
+  color: #333;
+  font-size: 46rpx;
+  font-weight: bold;
+}
+
+.item-text {
+  padding-left: 50rpx;
+}
+
+.text-item {
+  color: var(--grey);
+  padding-left: 18rpx;
+}
+
+.user-item {
+  width: 100%;
+  line-height: 30rpx;
+}
+
+.gif-wave {
+  position: relative;
+  width: 100%;
+  bottom: 0rpx;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;
+  height: 110rpx;
+}
+
+.cu-item {
+  background-color: #fff !important;
+  justify-content: left !important;
+}
+
+.relation {
+  width: 288rpx;
+  margin: 0 auto;
+}
+
+.public-avatar {
+  width: 166rpx;
+  height: 166rpx;
+  position: absolute;
+  top: 26rpx;
+  left: 88rpx;
+  z-index: 99;
+}
+
+.bottom-line {
+  display: flex;
+  margin: 49rpx 0;
+  justify-content: center;
+}
+
+.bl-left, .bl-right {
+  float: left;
+  height: 2px;
+  width: 166rpx;
+  opacity: 0.2;
+  border-radius: 10%;
+  background-color: #979797;
+}
+
+.bl-error {
+  float: left;
+  opacity: 0.5;
+  color: #4f4f4f;
+  font-weight: bold;
+  margin: -20rpx 20rpx 0 20rpx;
+}
+
+.bl-dot {
+  float: left;
+  width: 3px;
+  height: 3px;
+  opacity: 0.2;
+  margin: 0 20rpx;
+  border-radius: 50%;
+  background-color: #979797;
+}

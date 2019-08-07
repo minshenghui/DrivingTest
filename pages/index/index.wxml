@@ -1,0 +1,4 @@
+<cu-custom bgColor="bg-white-blue">
+  <view slot="content">驾照报考</view>
+</cu-custom>
+<image class="bg-img" src="../../images/bg.jpg"></image>
