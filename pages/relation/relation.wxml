@@ -1,6 +1,25 @@
 <cu-custom bgColor="bg-black">
   <view slot="content">联系方式</view>
 </cu-custom>
+
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>湖南省娄底市冷水江市冷新路安达驾校
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>市内包接送
+  </view>
+</view>
+
+
+<map class="map" show-scale scale="18" latitude="{{ latitude }}" longitude="{{ longitude }}" markers="{{ markers }}">
+  <cover-view class="z-index">
+  </cover-view>
+</map>
+
 <button open-type="share" class="bg-red lg share">分享</button>
 
-<button class="cu-btn bg-green margin-tb-sm lg" bindtap="calling">预约报名</button>
+<button class="bg-green margin lg" bindtap="calling">预约报名</button>
