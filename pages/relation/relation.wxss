@@ -1,1 +1,13 @@
-/* pages/relation/relation.wxss */
+
+.share {
+  width: 108rpx;
+  height: 108rpx;
+  right: 66rpx;
+  bottom: 128rpx;
+  line-height: 108rpx;
+  z-index: 99;
+  font-size: 24rpx;
+  position: fixed;
+  border: 1px solid rgb(226, 96, 96);
+  border-radius: 50%;
+}

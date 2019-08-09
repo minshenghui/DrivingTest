@@ -15,6 +15,9 @@
     "cu-custom": "/colorui/components/cu-custom"
   },
   "tabBar": {
+    "color": "#333",
+    "selectedColor": "#e54d42",
+    "backgroundColor": "#fff",
     "list": [{
         "pagePath": "pages/index/index",
         "text": "介绍",
@@ -22,7 +25,7 @@
         "selectedIconPath": "images/public-s.png"
       },{
         "pagePath": "pages/relation/relation",
-        "text": "联系",
+        "text": "联系方式",
         "iconPath": "images/article.png",
         "selectedIconPath": "images/article-s.png"
       },{

@@ -1,3 +1,6 @@
-<cu-custom bgColor="bg-white-blue">
+<cu-custom bgColor="bg-black">
   <view slot="content">联系方式</view>
 </cu-custom>
+<button open-type="share" class="bg-red lg share">分享</button>
+
+<button class="cu-btn bg-green margin-tb-sm lg" bindtap="calling">预约报名</button>

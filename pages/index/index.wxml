@@ -1,4 +1,5 @@
-<cu-custom bgColor="bg-white-blue">
+<cu-custom bgColor="bg-black">
   <view slot="content">驾照报考</view>
 </cu-custom>
+<button open-type="share" class="bg-red lg share">分享</button>
 <image class="bg-img" src="../../images/bg.jpg"></image>

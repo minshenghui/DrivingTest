@@ -1,4 +1,4 @@
-<cu-custom bgColor="bg-white-blue">
+<cu-custom bgColor="bg-black">
   <view slot="content">关于</view>
 </cu-custom>
 <view class="about-user">
@@ -12,25 +12,15 @@
 
   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
 
-    <view class="cu-item arrow user-item" bindtap="toQuestion">
-      <text class="cuIcon-questionfill text-grey"></text>
-      <text class="text-black item-text">使用须知</text>
-    </view>
-
-    <view class="cu-item arrow user-item" bindtap="toSuggest">
-      <text class="cuIcon-infofill text-grey"></text>
-      <text class="text-black item-text">建议反馈</text>
-    </view>
-
-    <view class="cu-item arrow user-item" bindtap="toCopyRight">
+    <view class="cu-item arrow user-item">
       <text class="cuIcon-icloading text-grey"></text>
-      <text class="text-black item-text">「我是玖柒后」</text>
+      <text class="text-black item-text">小程序开发「我是玖柒后」</text>
     </view>
 
-    <view class="cu-item arrow user-item" bindtap="toVersion">
+    <view class="cu-item arrow user-item">
       <text class="cuIcon-safe text-grey"></text>
-      <text class="text-black item-text">版本</text>
-      <text class="text-black ">v 1.1.3</text>
+      <text class="text-black item-text"></text>
+      <text class="text-black ">联系VX：msunh1997</text>
     </view>
 
 
